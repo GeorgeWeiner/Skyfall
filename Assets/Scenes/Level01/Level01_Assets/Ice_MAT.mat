@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ice_MAT
+  m_Shader: {fileID: -6465566751694194690, guid: 55d67b06011cd9c42b1d1ebcfb77eaa5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2772e488528441eaba8bfb1c90a2ef20:
+        m_Texture: {fileID: 2800000, guid: 4b9804e0313aa7261a0e35cf45cee58c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9f64b6dec207409bafa3cb2e49acb56a:
+        m_Texture: {fileID: 2800000, guid: f520cd20275b2ea409783c8ced5a73bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_20113c4bdd474abd814ddbb328c7e35d: 0.5
+    - Vector1_386b154bfa4b4e6dba1bdd426d00927d: 0
+    - Vector1_7a2960327a0f4ab5a8b946d5c3a2cd59: 0.5
+    - Vector1_9b817a71de7448b18603747e25433cc8: 0.75
+    - Vector1_b4f96fdde0d04a63a96f0fb497274f06: 1.19
+    - Vector1_d0f3a1acc61d45d0b848c7d5023949fe: 0.15
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_37368c7d1a064d41a80dbd563bca197c: {r: 1, g: 1, b: 1, a: 0}
+    - Color_e8acb48642cb4227ac30af9634f3097c: {r: 0.3066038, g: 0.62358487, b: 1, a: 0}
+    - Vector2_2e9f87746af043ad9e3532103b52976c: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &6314399744309593644
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
